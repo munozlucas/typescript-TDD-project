@@ -54,6 +54,6 @@ describe('RegisterVehicle', () => {
     }
     const httpResponse = sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(400)
-    expect(httpResponse.body).toEqual(new MissingFormalParameter('coloaar'))
+    expect(httpResponse.body).toEqual(new MissingFormalParameter('color'))
   })
 })
