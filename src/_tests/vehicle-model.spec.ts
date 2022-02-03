@@ -1,6 +1,6 @@
 import { VehicleModel } from '../models/vehicle-model'
 
-describe('Classes', () => {
+describe('Vehicle', () => {
   it('Class VehicleModel', () => {
     const vehicleModel = new VehicleModel('Nissan', 'DXT', 2020)
 
