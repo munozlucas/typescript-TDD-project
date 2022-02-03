@@ -1,4 +1,4 @@
-export interface vehicleHelper {
+export interface VehicleHelper {
   name: string
   model: string
   year: number
