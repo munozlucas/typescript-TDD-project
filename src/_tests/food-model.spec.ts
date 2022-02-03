@@ -2,7 +2,11 @@ import { Food } from '../models/food-model'
 
 describe('Food', () => {
   it('Class foodModel', () => {
-    const foodModel = new Food('Apple', 'sweet apple', 20)
+    const foodModel = new Food({
+      name: 'Apple',
+      description: 'sweet apple',
+      price: 20
+    })
 
     expect(foodModel.getName()).toEqual('Apple')
     expect(foodModel.getDescription()).toEqual('sweet apple')

@@ -5,6 +5,15 @@
   },
   "rules": {
     "@typescript-eslint/no-redeclare": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "max-len": [
+      2,
+      {
+        "code": 80,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreComments": true
+      }
+    ]
   }
 }
