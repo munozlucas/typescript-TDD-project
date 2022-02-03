@@ -1,8 +1,4 @@
-function test(): number {
+function testsss (): number {
   return 23
 }
-test();
-
-
-
-
+testsss()
