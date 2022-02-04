@@ -26,6 +26,6 @@ describe('Class ContractModel', () => {
       monthlyCost: 500
     })
 
-    expect(contractPrime.monthlyDiscount()).toBe(30)
+    expect(contractPrime.monthlyDiscount()).toBe(50)
   })
 })
